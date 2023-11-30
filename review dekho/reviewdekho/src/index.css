@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: rgb(19, 19, 19);
+}
+.header{
+    background-color: rgb(20, 19, 19);
+}
+.image{
+    height: 47vh;
+  width: 35vh;
+}
+
+
+.name{
+    inline-size: min-content;
+}
+
+@media only screen and (max-width: 600px) {
+    .small {
+    
+     padding: 1px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .image {
+        height: 28vh;
+        width: 19vh;
+      
+    }
+    .card{
+             width : 20vh ;
+             
+    }
+    .text{
+        font-size: small;
+    }
+  }
+  .footer{
+    margin-top: 20px;
+  }
